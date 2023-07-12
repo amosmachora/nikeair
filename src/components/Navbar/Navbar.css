@@ -1,0 +1,105 @@
+.App__navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.app_navbar_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  line-height: 22px;
+  max-width: 476px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.nikelogo {
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+  object-fit: cover;
+}
+
+.links > a {
+  color: #333333;
+}
+
+.nikelogo {
+  display: flex;
+}
+.target {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+
+.app_navbar_smallscreen {
+  display: none;
+}
+
+.hambugermenu {
+  top: 20px;
+  right: 20px;
+}
+.app_navbar_smallscreen_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+  transition: 0.5s ease;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_navbar_links_smallscreen {
+  list-style: none;
+}
+
+.app_navbar_links_smallscreen li {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.links_smallscreen > a {
+  color: #ffffff;
+  font-size: 27px;
+}
+.app_navbar_smallscreen_overlay .overlay_close {
+  font-size: 27px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  color: white;
+  right: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+  .app_navbar_links {
+    display: none;
+  }
+  .app_navbar_smallscreen {
+    display: flex;
+  }
+  .App__navbar {
+    justify-content: space-between;
+  }
+}

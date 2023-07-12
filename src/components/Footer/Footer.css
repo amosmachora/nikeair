@@ -1,0 +1,37 @@
+.footercontainer {
+  /* max-width: 1401px; */
+  /* height: 200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgcontainer {
+  display: flex;
+  max-width: 900px;
+  justify-content: space-between;
+}
+.footerimage {
+  width: 300px;
+  height: 204px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.videobutton {
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 1150px) {
+  .footercontainer {
+    flex-direction: column;
+  }
+  .imgcontainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .videobutton {
+    display: none;
+  }
+}

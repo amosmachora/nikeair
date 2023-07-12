@@ -1,0 +1,10 @@
+.App__bg {
+  background-color: rgba(228, 223, 220, 1);
+  width: 100vw;
+}
+body {
+  margin: 0;
+}
+.p__inter {
+  font-family: var(--font-base);
+}

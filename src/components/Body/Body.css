@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  /* max-height: 380px; */
+  align-items: center;
+  padding-top: 0 20px;
+}
+
+.maintext {
+  /* width: 600px; */
+  height: 165px;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 83px;
+  color: #2d2b2c;
+}
+
+.subtext {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 403px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  opacity: 0.6;
+}
+
+.cash {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 197.25px;
+  height: 54.32px;
+  background-color: #2d2b2c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button > p {
+  color: rgba(255, 255, 255, 1);
+}
+
+h2 {
+  font-weight: 600;
+  line-height: 36px;
+  font-size: 30px;
+}
+.asidenumbers :first-child {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.numbers {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.aside {
+  margin-left: 80px;
+  margin-right: 172px;
+  display: flex;
+  justify-content: space-between;
+}
+.asidenumbers {
+  margin-left: 30px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line1 {
+  width: 0;
+  height: 73px;
+  border: 3px solid #000000;
+}
+.line2 {
+  width: 0;
+  height: 146px;
+  border: 1px solid #000000;
+  opacity: 0.6;
+}
+.money {
+  margin-left: 20px;
+}
+
+.imgbig {
+  width: 500px;
+  height: 407px;
+  object-fit: cover;
+  /* transform: rotate(-45deg); */
+}
+
+@media screen and (max-width: 2000px) {
+  .subtext {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .right {
+    margin-top: 50px;
+  }
+  .aside {
+    margin-right: 60px;
+  }
+  .maintext {
+    height: auto;
+  }
+  .subtext {
+    height: 100px;
+  }
+  .cash {
+    margin-top: 50px;
+  }
+  .imgbig {
+    display: none;
+  }
+  .asidenumbers {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .maintext {
+    width: 85%;
+  }
+  .subtext {
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .cash {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: unset;
+  }
+  /* .container {
+    flex-direction: column;
+  } */
+  .aside {
+    /* display: flex;
+    flex-direction: column; */
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  /* .line {
+    flex-direction: column;
+  } */
+
+  .imgbig {
+    display: none;
+  }
+}
