@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nikeairmax/static/css/main.cf92e1ac.css",
+    "main.js": "/nikeairmax/static/js/main.39cde0ca.js",
+    "static/media/AirforceFooter1.png": "/nikeairmax/static/media/AirforceFooter1.24a885ee2eadd59ef268.png",
+    "static/media/AirForceFooter2.png": "/nikeairmax/static/media/AirForceFooter2.ba70c5d15171240827d2.png",
+    "static/media/BodyAirforce.png": "/nikeairmax/static/media/BodyAirforce.b911b2a6b1b4b3863906.png",
+    "static/media/AirForceFooter3.png": "/nikeairmax/static/media/AirForceFooter3.22a7bb5f070e80f930c2.png",
+    "static/media/PlayButton.PNG": "/nikeairmax/static/media/PlayButton.d493482c205b2bce1bac.PNG",
+    "index.html": "/nikeairmax/index.html",
+    "main.cf92e1ac.css.map": "/nikeairmax/static/css/main.cf92e1ac.css.map",
+    "main.39cde0ca.js.map": "/nikeairmax/static/js/main.39cde0ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf92e1ac.css",
+    "static/js/main.39cde0ca.js"
+  ]
+}
